@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+from csv_preprocessing import preprocess_data
 
 def analyze_injury_distribution(train_df):
     """Analyze and print injury distribution statistics"""
